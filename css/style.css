@@ -211,3 +211,26 @@ div#slider figure {
 }
 
 /*FOOTER*/
+/*EQUIPO*/
+.team-member {
+  margin-bottom: 30px;
+  overflow: hidden; /* Oculta cualquier contenido que se salga del borde redondeado */
+}
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease; /* Añade una transición suave para el movimiento */
+}
+.team-member img:hover {
+  transform: scale(1.1); /* Aplica un zoom suave al pasar el ratón por encima */
+}
+.team-member h5 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.team-member p {
+  color: #777;
+  font-size: 1em;
+}

@@ -176,7 +176,7 @@ header {
 /*SLIDER*/
 div#slider {
   overflow: hidden;
-  height: 500px;
+  height: 700px;
 } /* las imágenes no van a salir del márgen de la pantalla*/
 div#slider figure img {
   width: 20%;
